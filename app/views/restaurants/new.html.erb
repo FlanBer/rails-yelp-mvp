@@ -6,5 +6,5 @@
   <%= f.input :address %>
   <%= f.input :category %>
   <%= f.input :phone_number %>
-  <%= f.submit %>
+  <%= link_to f.submit, restaurants_path(f) %>
 <% end %>
